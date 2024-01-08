@@ -33,7 +33,8 @@ POST data:
     "badge": 1,
     "data": {
         "url": "optional url to auto-redirect the user if they have it enabled",
-        "html": "body of the notification users will see in-app.  Supports HTML and secure-only connections to images."
+        "html": "body of the notification users will see in-app.  Supports HTML and secure-only connections to images.",
+        "providerImage": "<url> for the image in the app"
     }
 }
 ```
